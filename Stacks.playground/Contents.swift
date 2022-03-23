@@ -14,6 +14,25 @@ import UIKit
 
 // With push and pop (appending and removing from top of stack), the Big O is O(1) because we don't traverse the stack (which is a singly linked list here). If we used an array for a stack and not a linked list, we can still use push and pop, it would be really inefficient though because of the need to reindex. In this case, it would be more efficient to append and remove from the end of the array, so there is no need to reindex (when using arrays)
 
+// MARK: - USING AN ARRAY
+
+var stack = [String]()
+
+stack.insert("FIRST", at: 0)
+stack.insert("SECOND", at: 0)
+stack.insert("THIRD", at: 0)
+
+// removing the first thing that was added to the array -> LIFO
+
+stack.removeFirst()
+stack.removeFirst()
+stack.removeFirst()
+
+stack
+
+
+
+
 class Node<T> {
 
     var value: T

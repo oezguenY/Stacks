@@ -22,7 +22,7 @@ stack.insert("FIRST", at: 0)
 stack.insert("SECOND", at: 0)
 stack.insert("THIRD", at: 0)
 
-// removing the first thing that was added to the array -> LIFO
+// removing the last thing that was added to the array -> LIFO
 
 stack.removeFirst()
 stack.removeFirst()

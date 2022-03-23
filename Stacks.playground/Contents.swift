@@ -31,7 +31,7 @@ stack.removeFirst()
 stack
 
 
-
+// MARK: - BUILDING STACK FROM SCRATCH
 
 class Node<T> {
 
@@ -43,9 +43,6 @@ class Node<T> {
         self.next = next
     }
 }
-
-
-// MARK: - PUSH
 
 struct Stack<T> {
 
